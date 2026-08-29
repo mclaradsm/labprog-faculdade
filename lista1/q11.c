@@ -1,17 +1,17 @@
 #include <stdio.h>
 
 int main(){
-    int a, b, c;
-    puts("Digite primeiro o número A: ");
-    scanf("%d", &a);
+    int x,y;
+    printf("Digite o valor de x: ");
+    scanf("%d", &x);
+    printf("Digite o valor de y: ");
+    scanf("%d", &y);
 
-    puts("Digite o número B: ");
-    scanf("%d", &b);
+    printf("A soma é: %d\n", x+y);
+    printf("A subtração é: %d\n", x-y);
+    printf("A multiplicação é: %d\n", x*y);
+    printf("A divisão é: %d\n", x/y);
+    printf("O resto da divisão é: %d\n", x%y);
     
-    c=a;
-    a=b;
-    b=c;
-
-    printf("Após a troca, A = %d e B = %d\n", a, b);
     return 0;
 }
