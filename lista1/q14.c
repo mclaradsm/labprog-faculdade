@@ -4,7 +4,7 @@ int main(){
     int dias;
     puts("Informe o número de dias trabalhados: ");
     scanf("%d", &dias);
-    printf("O salário líquido: %.2f\n", (float)dias * 50.25);
+    printf("O salário bruto: %.2f\n", (float)dias * 50.25);
     puts("O salário após possíveis bonificações e descontos do imposto de renda: ");
 
     if (dias <=10){
