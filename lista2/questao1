@@ -32,9 +32,10 @@ int main(){
                 break;
             default:
                 puts("Número inválido. Digite um número entre 1 e 7 para verificar o dia da semana ou digite 0 para encerrar o programa.");
-        }
-        scanf("%d", &numero);
+            }
+            scanf("%d", &numero);
     }
+
 
 return 0;
 }
