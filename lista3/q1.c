@@ -15,7 +15,7 @@ int main(){
 
     if (a>= p && p >= v){
         printf("A distância entre os objetos A e B é: %d", a);
-    }else if (p >= a >= v){
+    }else if (p >= a && a >= v){
         printf("A distância entre os objetos A e B é: %d", p);
     }else{
         printf("A distância entre os objetos A e B é: %d", v);
