@@ -16,4 +16,3 @@ int main(){
 
     return 0;
 }
-//pedro + 3 e jose + 2 p/ano
