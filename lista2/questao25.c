@@ -14,7 +14,7 @@ int main() {
             pi = pi - 4.0 / (2 * i - 1);
         }
 
-        printf("%d\t%.10f\n", i, pi);
+        printf("%d\t %.10f\n", i, pi);
     }
 
     return 0;
