@@ -1,4 +1,3 @@
-//Construir um programa que apresente como resultado o fatorial dos valores  ́ımpares situados na faixa numero de 1 a 10.
 #include <stdio.h>
 
 int main(){
