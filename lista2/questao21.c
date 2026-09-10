@@ -1,10 +1,3 @@
-//Um palındromo  ́e um numero, ou frase textual, que pode ser lido da mesma forma da esquerda para
-//a direita e vice-versa. Por exemplo, cada um dos seguintes inteiros de cinco dıgitos  ́e um palındromo:
-//12321, 55555, 45554 e 11611. Escreva um programa que leia um inteiro de cinco dıgitos e determine se
-//ele  ́e ou nao um palındromo. [Dica: use os operadores de divisao e modulo para separar o numero em
-//seus dıgitos individuais.]
-
-
 #include <stdio.h>
 
 int main(){
