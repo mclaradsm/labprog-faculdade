@@ -1,5 +1,8 @@
 #include <stdio.h>
+<<<<<<< HEAD
 #include <stdlib.h>
+=======
+>>>>>>> cc494e3ab63caff4fe5018860d0d2ff6fef84bcf
 
 int main (){
     int ac, pc, vc, ac1, pc1, vc1;
