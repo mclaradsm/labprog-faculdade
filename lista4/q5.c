@@ -5,10 +5,12 @@
 int main(){
     char str[TAM];
     char str2[TAM];
+    char str3[TAM];
 
     puts("Escreva a primeira string: ");
     scanf("%[^\n]", str);
     fflush(stdin);
+    strcpy(str3, str);
 
     puts("Escreva a segunda string: ");
     scanf("%[^\n]", str2);
@@ -25,18 +27,18 @@ int main(){
     puts("Versão sem strcat():");
 
     int i = 0, j = 0;
-    while(str[i] != '\0'){
+    while(str3[i] != '\0'){
         i++;
     }
 
     while(str2[j] != '\0'){
-        str[i] = str2[j];
+        str3[i] = str2[j];
         i++;
         j++;
     }
 
-    str[i] = '\0';
-    printf("A string concatenada é: %s\n", str);
+    str3[i] = '\0';
+    printf("A string concatenada é: %s\n", str3);
 
     return 0;
 }
