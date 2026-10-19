@@ -1,6 +1,3 @@
-//Fa ̧ca um programa que leia uma matriz bidimensional do usu ́ario, de dimens ̃ao 3x3, e apresente os
-//elementos da diagonal principal.
-
 #include <stdio.h>
 #define TAM 3
 
