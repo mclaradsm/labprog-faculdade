@@ -3,10 +3,6 @@
 #include <time.h>
 #define TAM 100
 
-//Fa ̧ca um programa em C que gere um vetor com 100 n ́umeros inteiros pseudoaleat ́orios no intervalo
-//definido pelo usu ́ario e apresente esse vetor ordenado (crescente). Fa ̧ca uma vers ̃ao com o m ́etodo
-//de ordena ̧c ̃ao por sele ̧c ̃ao e outra pelo m ́etodo bolha (bubble sort).
-
 int main(){
     int vetor[TAM];
     int min, max;
@@ -16,7 +12,6 @@ int main(){
     puts("Digite o valor maximo do intervalo: ");   
     scanf("%d", &max);
 
-    //OS VETORES TEM QUE SER PREENCHIDOS COM NÚMEROS ALEATÓRIOS ENTRE MIN E MAX
     srand(time(NULL));
     for(int i = 0; i < TAM; i++){
         vetor[i] = rand() % (max - min + 1) + min;

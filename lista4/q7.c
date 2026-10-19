@@ -3,8 +3,6 @@
 #include <time.h>
 #include <math.h>
 #define TAM 3
-//Fa ̧ca um programa em C que gere um vetor com 3 numeros inteiros pseudoaleatorios no intervalo
-//[0, 19] e apresente a sua media aritmetica e geometrica.
 
 int main(){
     int vetor[TAM];
