@@ -1,5 +1,5 @@
 #include <stdio.h>
-//trocar os valores de dois numeros utilizando ponteiros
+
 int main(){
     int a, b;
     int *pa, *pb;
