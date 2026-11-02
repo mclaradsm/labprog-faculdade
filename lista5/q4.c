@@ -6,7 +6,6 @@ int main(){
     int numeros[TAM];
     float decimais[TAM];
     char letras[TAM];
-    double valores[TAM];
 
     //aqui os números inteiros são declarados
     puts("\nDigite os números inteiros: ");
